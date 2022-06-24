@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HW</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+	<div class="wrap">
+		
+		<div class="top">
+			
+			<div class="top_text" id="text">Hello World !)</div>
+
+		</div>
+
+		<div class="buttons">
+			
+			<div class="btn" id="btn_edit">Редагувати</div>
+			<div class="btn" id="btn_style">Стилізувати</div>
+
+		</div>
+
+		<div class="bottoms_positions">
+
+		<div class="bottom_edit" id="bottom_edit">
+			
+			<textarea class="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+			<div class="bottom_edit_buttons">
+				
+				<div class="bottom_edit_btn" id="bottom_edit_btn">Зберегти</div>
+				<div class="bottom_edit_btn" id="clear">Очистити</div>
+
+			</div>
+
+		</div>
+
+		<div class="bottom_style" id="bottom_style">
+
+			<div class="bottom_style_position">
+			
+				<div class="text_bottom_style">
+					
+					<div class="">Розмір тексту: </div>
+					<label><input type="radio" class="radio_item" name="radio" value="16px">16px</label>
+	                <label><input type="radio" class="radio_item" name="radio" value="18px">18px</label>
+	                <label><input type="radio" class="radio_item" name="radio" value="20px" checked>20px</label>
+	                <label><input type="radio" class="radio_item" name="radio" value="22px">22px</label>
+	                <label><input type="radio" class="radio_item" name="radio" value="24px">24px</label>
+
+				</div>
+
+				<div class="text_bottom_style">
+					
+					<div class="">Шрифт: </div>
+					<select name="select" class="select" id="font_family_choose">
+	                    <option value="Times">Times</option>
+	                    <option value="Arial">Arial</option>
+	                    <option value="Tahoma">Tahoma</option>
+	                    <option value="Consolas">Consolas</option>
+	                    <option value="Montserrat">Montserrat</option>
+	                </select>
+
+				</div>
+
+				<div class="text_bottom_style_right">
+
+					<div class="text_bottom_style">
+
+						<div class="text_bottom_style_buttons">
+						
+							<div class="text_bottom_style_btn" id="text_bottom_style_btn_c">Колір тексту</div>
+							<div class="text_bottom_style_btn" id="text_bottom_style_btn_bg">Колір фону</div>
+
+						</div>
+
+					</div>
+
+					<div class="palitra" id="palitra_c">
+							
+							<div class="row">
+								
+								<div class="row_item red"></div>
+								<div class="row_item green"></div>
+								<div class="row_item blue"></div>
+
+							</div>
+
+							<div class="row">
+								
+								<div class="row_item white"></div>
+								<div class="row_item orange"></div>
+								<div class="row_item pink"></div>
+
+							</div>
+
+							<div class="row">
+								
+								<div class="row_item black"></div>
+								<div class="row_item grey"></div>
+								<div class="row_item lightgrey"></div>
+
+							</div>
+
+					</div>
+
+					<div class="palitra" id="palitra_bg">
+							
+							<div class="row">
+								
+								<div class="row_item red_bg"></div>
+								<div class="row_item green_bg"></div>
+								<div class="row_item blue_bg"></div>
+
+							</div>
+
+							<div class="row">
+								
+								<div class="row_item white_bg"></div>
+								<div class="row_item orange_bg"></div>
+								<div class="row_item pink_bg"></div>
+
+							</div>
+
+							<div class="row">
+								
+								<div class="row_item black_bg"></div>
+								<div class="row_item grey_bg"></div>
+								<div class="row_item lightgrey_bg"></div>
+
+							</div>
+
+					</div>
+
+				</div>
+
+				<div class="text_bottom_style text_bottom_style_position">
+					
+					<div class="text_style">Italic</div>
+					<label><input type="checkbox" class="checkbox_item" name="checkbox" value="Italic"></label>
+
+					<div class="text_style_bold">Bold</div>
+					<label><input type="checkbox" class="checkbox_item" id="checkbox_item_bold" name="checkbox" value="Bold" checked></label>
+
+				</div>
+
+				<div class="text_bottom_style text_bottom_style_position">
+					
+					<div class="text_bottom_style_btn_close" id="text_bottom_style_btn_close">Закрити</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>

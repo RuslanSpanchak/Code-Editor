@@ -1,0 +1,349 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrap {
+	width: 100%;
+	height: 100vh;
+
+	background-color: #005eff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.top {
+	width: 600px;
+	height: 250px;
+
+	border: 1px solid #000;
+	border-radius: 25px;
+	background-color: whitesmoke;
+
+	padding: 15px;
+}
+
+.top_text {
+	font-size: 20px;
+	font-weight: 900;
+	color: blue;
+}
+
+.buttons {
+	display: flex;
+
+	margin-top: 25px;
+	margin-right: -25px;
+}
+
+.btn {
+	font-size: 20px;
+	font-weight: 900;
+	color: blue;
+
+	background-color: whitesmoke;
+	border-radius: 25px;
+	border: 2px solid #000;
+	
+	transform: scale(1.0);
+
+	padding: 5px 15px;
+	margin-right: 25px;
+
+	transition: .1s linear;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: darkgrey;
+}
+
+.bottom_edit {
+	width: 600px;
+	height: 300px;
+
+	border: 5px solid #fff;
+	border-radius: 25px;
+	background-color: red;
+
+	padding: 15px;
+	margin-top: 25px;
+	margin-right: 25px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.textarea {
+	width: 500px;
+	height: 200px;
+
+	resize: none;
+	border: 2px solid black;
+	outline: none;
+
+	border-radius: 5px;
+
+	padding: 15px;
+}
+
+.bottom_edit_buttons {
+	display: flex;
+
+	margin-top: 25px;
+	margin-right: -25px;
+}
+
+.bottom_edit_btn {
+	font-size: 20px;
+	font-weight: 900;
+	color: whitesmoke;
+
+	background-color: #005eff;
+	border-radius: 25px;
+	border: 2px solid #000;
+	
+
+	padding: 3px 15px;
+	margin-right: 15px;
+
+	transition: .1s linear;
+	cursor: pointer;
+}
+
+.bottom_edit_btn:hover {
+	background-color: blue;
+}
+
+.span_bottom_edit {
+	color: darkgrey;
+}
+
+.bottom_style {
+	width: 600px;
+	height: 300px;
+
+	border: 5px solid #fff;
+	border-radius: 25px;
+	background-color: red;
+
+	padding: 15px;
+	margin-top: 25px;
+	/*margin-left: 25px;*/
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.text_bottom_style {
+	font-weight: 900;
+	font-size: 25px;
+
+	display: flex;
+	justify-content: flex-start;
+
+	margin-top: 25px;
+	/*margin-left: 15px;*/
+}
+
+.radio_item {
+	margin-left: 10px;
+}
+
+.select {
+	margin-left: 15px;
+	padding: 5px;
+
+	background-color: lightgreen;
+	border-radius: 25px;
+
+	font-size: 15px;
+
+	cursor: pointer;
+}
+
+.text_bottom_style_btn {
+	width: 150px;
+	height: 30px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 15px;
+	font-weight: 900;
+	color: whitesmoke;
+
+	background-color: #005eff;
+	border-radius: 25px;
+	border: 2px solid #000;
+	
+
+	padding: 3px 15px;
+	margin-right: 15px;
+
+	transition: .1s linear;
+	cursor: pointer;
+}
+
+.text_bottom_style_btn:hover {
+	background-color: blue;
+}
+
+.text_style {
+	margin-right: 10px;
+}
+
+.text_style_bold {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.bottom_style_position {
+	position: relative;
+	bottom: 25px;
+}
+
+.text_bottom_style_position {
+	position: relative;
+}
+
+.text_bottom_style_buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+}
+
+.text_bottom_style_right {
+	display: flex;
+}
+
+.palitra {
+	border: 1px solid #000;
+
+	margin-left: 25px;
+
+	display: none;
+}
+
+.row {
+	display: flex;
+}
+
+.row_item {
+	padding: 15px 20px;
+	border: 1px solid #000;
+
+	cursor: pointer;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.white {
+	background-color: white;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.black {
+	background-color: black;
+}
+
+.grey {
+	background-color: grey;
+}
+
+.lightgrey {
+	background-color: lightgrey;
+}
+
+.red_bg {
+	background-color: red;
+}
+
+.green_bg {
+	background-color: green;
+}
+
+.blue_bg {
+	background-color: blue;
+}
+
+.white_bg {
+	background-color: white;
+}
+
+.orange_bg {
+	background-color: orange;
+}
+
+.pink_bg {
+	background-color: pink;
+}
+
+.black_bg {
+	background-color: black;
+}
+
+.grey_bg {
+	background-color: grey;
+}
+
+.lightgrey_bg {
+	background-color: lightgrey;
+}
+
+.text_bottom_style_btn_active {
+	background-color: darkblue;
+}
+
+.bottoms_positions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text_bottom_style_btn_close {
+	font-size: 20px;
+	font-weight: 900;
+	color: whitesmoke;
+
+	background-color: #005eff;
+	border-radius: 25px;
+	border: 2px solid #000;
+	
+
+	padding: 3px 15px;
+	margin-right: 5px;
+
+	transition: .1s linear;
+	cursor: pointer;
+}
+
+.text_bottom_style_btn_close:hover {
+	background-color: blue;
+}
